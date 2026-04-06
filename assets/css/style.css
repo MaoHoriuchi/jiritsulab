@@ -110,6 +110,7 @@ body.hovering .cursor-ring{width:56px;height:56px;top:-28px;left:-28px;border-co
 /* enterAnim */
 .enterAnim{opacity:0;transform:translateY(30px);transition:opacity .6s cubic-bezier(.165,.84,.44,1),transform .6s cubic-bezier(.165,.84,.44,1)}
 .enterAnim.is-visible{opacity:1;transform:translateY(0)}
+.hero .enterAnim{opacity:1;transform:translateY(0)}
 
 /* === PROBLEMS === */
 .problems{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:40px}
