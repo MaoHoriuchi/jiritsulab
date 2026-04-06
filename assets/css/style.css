@@ -114,9 +114,10 @@ body.hovering .cursor-ring{width:56px;height:56px;top:-28px;left:-28px;border-co
 
 /* === PROBLEMS === */
 .problems{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:40px}
-.problem{background:#fff;border:1px solid #e6ebf1;border-radius:14px;padding:24px 16px;text-align:center;transition:transform .4s,box-shadow .4s}
-.problem:hover{transform:translateY(-6px);box-shadow:0 16px 40px rgba(0,0,0,.06)}
-.problem p{font-size:14px;font-weight:700;color:#334155;line-height:1.6}
+.problem{background:#fff;border:1px solid #e6ebf1;border-radius:14px;padding:28px 20px;text-align:center;transition:transform .4s,box-shadow .4s,border-color .4s}
+.problem:hover{transform:translateY(-6px);box-shadow:0 16px 40px rgba(0,0,0,.06);border-color:#e53e3e}
+.problem p{font-size:17px;font-weight:700;color:#334155;line-height:1.7;transition:color .4s}
+.problem:hover p{color:#e53e3e}
 
 /* Answer */
 .answer{display:grid;grid-template-columns:260px 1fr;gap:clamp(20px,3vw,40px);align-items:center;padding:28px;border-radius:18px;background:#fff;box-shadow:0 6px 32px rgba(0,0,0,.04)}
