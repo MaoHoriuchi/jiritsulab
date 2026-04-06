@@ -239,11 +239,11 @@ body.hovering .cursor-ring{width:56px;height:56px;top:-28px;left:-28px;border-co
 /* === FAQ === */
 .faqs{display:flex;flex-direction:column}
 .faq{border-bottom:1px solid #e6ebf1}
-.faq summary{display:flex;align-items:center;justify-content:space-between;width:100%;padding:18px 0;font-size:15px;font-weight:700;color:#1a1a2e;cursor:pointer;list-style:none}
+.faq summary{display:grid;grid-template-columns:1fr 24px;align-items:start;gap:16px;width:100%;padding:18px 0;font-size:15px;font-weight:700;color:#1a1a2e;cursor:pointer;list-style:none;line-height:1.8;text-align:left}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:'+';font-family:'Inter',sans-serif;font-size:20px;font-weight:300;color:#aaa;transition:transform .3s}
+.faq summary::after{content:'+';font-family:'Inter',sans-serif;font-size:20px;font-weight:300;color:#aaa;transition:transform .3s;text-align:center;line-height:1.4}
 .faq[open] summary::after{transform:rotate(45deg);color:#0B6B3A}
-.faq p{padding:0 0 18px;font-size:14px;color:#555;line-height:2}
+.faq p{padding:0 0 18px;font-size:14px;color:#555;line-height:2;text-align:left}
 
 /* === CTA === */
 .cta-box{max-width:680px;margin:0 auto}
