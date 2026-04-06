@@ -213,13 +213,21 @@ body.hovering .cursor-ring{width:56px;height:56px;top:-28px;left:-28px;border-co
 .plan:hover{transform:translateY(-5px)}
 .plan-badge{position:absolute;top:-10px;right:14px;font-family:'Inter',sans-serif;font-size:9px;font-weight:800;letter-spacing:.1em;padding:4px 12px;border-radius:16px;background:#0B6B3A;color:#fff}
 .plan-badge--gold{background:linear-gradient(135deg,#d4a017,#b8860b)}
-.plan-name{font-family:'Inter',sans-serif;font-size:20px;font-weight:900;font-style:italic;color:#1a1a2e;margin-bottom:6px}
-.plan-price{font-size:clamp(30px,4vw,40px);font-weight:900;font-style:italic;color:#0B6B3A;line-height:1;margin-bottom:4px}
+.plan-tier{font-family:'Inter',sans-serif;font-size:12px;font-weight:800;letter-spacing:.15em;color:rgba(26,26,46,.4);text-transform:uppercase;margin-bottom:2px}
+.plan-name{font-family:'Noto Sans JP',sans-serif;font-size:18px;font-weight:900;color:#1a1a2e;margin-bottom:8px}
+.plan-price{font-family:'Inter',sans-serif;font-size:clamp(30px,4vw,40px);font-weight:900;font-style:italic;color:#0B6B3A;line-height:1;margin-bottom:4px}
 .plan-price small{font-size:13px;font-weight:600}
-.plan-desc{font-size:12px;color:#666;margin-bottom:16px}
+.plan-desc{font-size:13px;color:#555;margin-bottom:18px;line-height:1.7;font-weight:700}
+.plan-features{display:flex;flex-direction:column;gap:8px}
+.plan-feature--yes{font-size:13px;color:#333;padding-left:20px;position:relative;line-height:1.7}
+.plan-feature--yes::before{content:'\2713';position:absolute;left:0;font-weight:800;color:#0B6B3A;font-size:12px}
+.plan-feature--no{font-size:13px;color:#999;padding-left:20px;position:relative;line-height:1.7}
+.plan-feature--no::before{content:'\2717';position:absolute;left:0;font-weight:800;color:#ccc;font-size:12px}
+.plan-for{font-size:11px;color:#0B6B3A;margin-top:14px;padding:10px 12px;background:rgba(11,107,58,.05);border-radius:8px;line-height:1.7}
+.plan-tagline{font-size:14px;font-weight:900;color:#d4a017;margin-top:16px;text-align:center;line-height:1.6;font-style:italic}
 .plan ul{display:flex;flex-direction:column;gap:6px}
-.plan li{font-size:13px;color:#333;padding-left:16px;position:relative;line-height:1.6}
-.plan li::before{content:'\2713';position:absolute;left:0;font-weight:800;color:#0B6B3A;font-size:11px}
+.plan li{font-size:13px;color:#333;padding-left:20px;position:relative;line-height:1.7}
+.plan li::before{content:'\2713';position:absolute;left:0;font-weight:800;color:#0B6B3A;font-size:12px}
 .plan--plus{border:2px solid #0B6B3A;box-shadow:0 6px 24px rgba(11,107,58,.08)}
 .plan--full{background:linear-gradient(135deg,#fffbeb,#fff);border-color:#d4a017}
 .plan-prices-row{display:flex;gap:8px;margin-bottom:10px}
