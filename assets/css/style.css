@@ -251,14 +251,14 @@ body.hovering .cursor-ring{width:56px;height:56px;top:-28px;left:-28px;border-co
 @media(max-width:768px){.footer-top{grid-template-columns:1fr;gap:16px;text-align:center}}
 .footer-logo{font-size:18px;font-weight:900;font-style:italic}.footer-logo span{color:#2563EB}
 .logo-mark-sm{display:inline-flex;width:20px;height:20px;border-radius:4px;background:linear-gradient(135deg,#0B6B3A,#2563EB);color:#fff;font-family:'Inter',sans-serif;font-size:10px;font-weight:900;align-items:center;justify-content:center;margin-right:6px}
-.footer-brand p{font-size:12px;opacity:.8;margin-top:4px}
+.footer-brand p{font-size:12px;color:#fff;opacity:1;margin-top:4px}
 .footer-brand p a{color:#fff;text-decoration:underline;text-underline-offset:2px}
 .footer-brand p a:hover{color:#7ee8a8}
 .footer-nav{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
-.footer-nav a{font-family:'Inter',sans-serif;font-size:12px;font-weight:700;letter-spacing:.06em;opacity:.7;transition:opacity .3s;color:#fff}
-.footer-nav a:hover{opacity:1}
+.footer-nav a{font-family:'Inter',sans-serif;font-size:12px;font-weight:700;letter-spacing:.06em;opacity:1;color:#fff;transition:opacity .3s}
+.footer-nav a:hover{opacity:.7}
 .footer-legal{display:flex;flex-direction:column;gap:5px;text-align:right}
 @media(max-width:768px){.footer-legal{text-align:center}}
-.footer-legal a{font-size:11px;opacity:.6;color:#fff;transition:opacity .3s}.footer-legal a:hover{opacity:1}
-.footer-bottom{text-align:center;padding-top:16px;border-top:1px solid rgba(255,255,255,.1)}
-.footer-bottom p{font-size:11px;opacity:.6;color:#fff}
+.footer-legal a{font-size:11px;opacity:1;color:#fff;transition:opacity .3s}.footer-legal a:hover{opacity:.7}
+.footer-bottom{text-align:center;padding-top:16px;border-top:1px solid rgba(255,255,255,.15)}
+.footer-bottom p{font-size:11px;opacity:1;color:#fff}
