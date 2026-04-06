@@ -151,7 +151,8 @@ body.hovering .cursor-ring{width:56px;height:56px;top:-28px;left:-28px;border-co
 /* Method image */
 .method-img{margin-top:clamp(36px,5vh,56px);border-radius:18px;overflow:hidden;position:relative}
 .method-img img{width:100%;height:clamp(180px,25vw,320px);object-fit:cover;filter:grayscale(.15)}
-.method-img-caption{position:absolute;bottom:0;left:0;right:0;padding:16px 20px;background:linear-gradient(transparent,rgba(0,0,0,.65));font-size:clamp(15px,1.8vw,20px);font-weight:900;font-style:italic;color:#fff}
+.method-img-caption{position:absolute;bottom:0;left:0;right:0;padding:16px 20px;background:linear-gradient(transparent,rgba(0,0,0,.65));font-size:clamp(15px,1.8vw,20px);font-weight:900;font-style:italic;color:#fff;line-height:1.6}
+.method-img-credit{font-size:11px;font-weight:500;font-style:normal;color:rgba(255,255,255,.7);display:block;margin-top:4px}
 
 /* === SCORE === */
 .axes{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:clamp(40px,5vh,64px)}
